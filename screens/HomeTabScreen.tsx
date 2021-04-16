@@ -3,7 +3,7 @@ import { StyleSheet, View } from 'react-native';
 
 import HomeScreen from './HomeScreen';
 
-export default function TabOneScreen() {
+export default function HomeTabScreen() {
   return (
     <View style={styles.container}>
       <HomeScreen></HomeScreen>

@@ -2,7 +2,8 @@ import React from 'react';
 import { StyleSheet } from 'react-native';
 //import styles from './styles';
 import { View } from 'react-native';
-import Search from '../../components/Search';
+// @ts-ignore
+//import Search from '../../components/Search';
 
 const HomeScreen = () => {
     
@@ -10,7 +11,7 @@ const HomeScreen = () => {
     return (
       <View style={styles.container}>
         {/*SearchBar, TabNavigation, TabSelection, BannerMovie */}
-        <Search></Search>  
+          
       </View>
     );
   }

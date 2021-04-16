@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, TextInput } from 'react-native';
 //import styles from './styles';
-import { Ionicons } from '@expo/vector-icons';
+//import { Ionicons } from '@expo/vector-icons';
+//import { searchMovie } from '../../services/search';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
 
 const Search = () => {
     const [searchQuery, setSearchQuery] = React.useState('');
@@ -10,12 +13,19 @@ const Search = () => {
 
     return (
         <View style={styles.container}>
-        <TextInput
+          <TextInput
             style={styles.searchbox}
             placeholder="Enter a Movie"
             onChangeText={onChangeSearch}
             value={searchQuery}
-        />
+            icon={
+              <Icon
+                name="search"
+                size={10}
+                color="black"
+              />
+            }
+          />
         </View>
     );
   }

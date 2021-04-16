@@ -6,7 +6,7 @@ import * as React from 'react';
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import HomeTabScreen from '../screens/HomeTabScreen';
-import TabTwoScreen from '../screens/TabTwoScreen';
+import SearchTabScreen from '../screens/SearchTabScreen';
 import { BottomTabParamList, HomeParamList, SearchHistoryParamList } from '../types';
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>();
@@ -65,7 +65,7 @@ function TabTwoNavigator() {
     <SearchHistoryStack.Navigator>
       <SearchHistoryStack.Screen
         name="SearchHistoryScreen"
-        component={TabTwoScreen}
+        component={SearchTabScreen}
         options={{ headerTitle: 'Search History' }}
       />
     </SearchHistoryStack.Navigator>
