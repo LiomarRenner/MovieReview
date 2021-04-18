@@ -1,14 +1,13 @@
 {
   "expo": {
+    "sdkVersion": "40.0.0",
     "name": "MovieReview",
     "slug": "MovieReview",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "",
     "scheme": "myapp",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

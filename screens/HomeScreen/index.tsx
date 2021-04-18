@@ -4,6 +4,7 @@ import { StyleSheet } from 'react-native';
 import { View } from 'react-native';
 // @ts-ignore
 //import Search from '../../components/Search';
+import BannerMovie from '../../components/BannerMovie';
 
 const HomeScreen = () => {
     
@@ -11,7 +12,7 @@ const HomeScreen = () => {
     return (
       <View style={styles.container}>
         {/*SearchBar, TabNavigation, TabSelection, BannerMovie */}
-          
+         <BannerMovie></BannerMovie> 
       </View>
     );
   }
